@@ -1,0 +1,141 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": [
+        "Hello! I'm your Paris Travel Itinerary Planner. How can I assist you today?",
+        "Hi there! Ready to explore the wonders of Paris?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Talk to you soon"],
+      "responses": [
+        "Goodbye! Have a fantastic trip in Paris!",
+        "See you later! Enjoy your time in the City of Lights!"
+      ]
+    },
+    {
+      "tag": "sightseeing_recommendations",
+      "patterns": [
+        "What are the must-see sights in Paris?",
+        "Can you recommend iconic places to visit?",
+        "Where should I go for the best views of the Eiffel Tower?"
+      ],
+      "responses": [
+        "Don't miss the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral! Each offers unique experiences.",
+        "For a stunning view of Paris, visit Montmartre or the Trocadéro Gardens."
+      ]
+    },
+    {
+      "tag": "culinary_experiences",
+      "patterns": [
+        "Where can I find the best croissants in Paris?",
+        "Can you recommend a good restaurant?",
+        "What are some must-try French dishes?"
+      ],
+      "responses": [
+        "You have to try the croissants at [Bakery Name]. They are famous for their flaky perfection!",
+        "For authentic French cuisine, dine at [Restaurant Name]. The ambiance is as delightful as the food!"
+      ]
+    },
+    {
+      "tag": "cultural_events",
+      "patterns": [
+        "Are there any festivals happening in Paris this month?",
+        "What cultural events should I check out?",
+        "Tell me about concerts or exhibitions in Paris."
+      ],
+      "responses": [
+        "The [Event Name] festival is coming up soon. It features local artists and food vendors!",
+        "Check out the [Museum Name] for their special exhibition this week!"
+      ]
+    },
+    {
+      "tag": "transportation_tips",
+      "patterns": [
+        "How do I get around Paris?",
+        "What’s the best way to travel in the city?",
+        "Can you suggest public transportation options?"
+      ],
+      "responses": [
+        "The Metro is a quick way to navigate the city. Consider getting a Paris Visite pass for unlimited travel!",
+        "Biking is also popular; you can rent a Vélib' bike for easy transportation."
+      ]
+    },
+    {
+      "tag": "shopping_hotspots",
+      "patterns": [
+        "Where should I go shopping in Paris?",
+        "Can you recommend some local boutiques?",
+        "What are the best markets to visit?"
+      ],
+      "responses": [
+        "Visit the Champs-Élysées for luxury shopping, but don’t miss the local markets like Marché Bastille!",
+        "Explore the Marais district for unique boutiques and vintage shops!"
+      ]
+    },
+    {
+      "tag": "hidden_gems",
+      "patterns": [
+        "What are some hidden gems in Paris?",
+        "Can you suggest less touristy places to visit?",
+        "What are some secret spots in the city?"
+      ],
+      "responses": [
+        "Check out the [Secret Garden Name] for a peaceful retreat from the crowds.",
+        "The Canal Saint-Martin area has charming cafes and a local vibe."
+      ]
+    },
+    {
+      "tag": "art_and_museums",
+      "patterns": [
+        "Which museums are worth visiting in Paris?",
+        "Can you recommend an art gallery?",
+        "What are the must-see art exhibitions?"
+      ],
+      "responses": [
+        "The Louvre and Musée d'Orsay are must-visit spots for art lovers!",
+        "Don’t forget to explore the Pompidou Center for contemporary art!"
+      ]
+    },
+    {
+      "tag": "local_etiquette",
+      "patterns": [
+        "What are some local customs I should know?",
+        "How do I greet people in Paris?",
+        "What’s the etiquette for dining in France?"
+      ],
+      "responses": [
+        "A polite greeting goes a long way; start with 'Bonjour' when entering shops or restaurants.",
+        "Remember to say 'Merci' after receiving service; it’s appreciated!"
+      ]
+    },
+    {
+      "tag": "no_answer",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I didn't understand that. Could you please rephrase?",
+        "Can you clarify your request?",
+        "I'm not sure I understand. Can you provide more details?"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "I appreciate your help",
+        "Thanks for the information",
+        "Thank you for your assistance"
+      ],
+      "responses": [
+        "You're welcome! I'm here to help.",
+        "Glad I could assist you! Let me know if you need anything else.",
+        "No problem! Enjoy your trip!",
+        "Happy to help! If you have more questions, feel free to ask."
+      ]
+    }
+  ]
+}
