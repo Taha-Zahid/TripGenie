@@ -26,7 +26,7 @@ You also need `nltk`:
 pip install nltk
  ```
 
-If you get an error during the first run, you also need to install `nltk.tokenize.punkt`:
+If you get an error during the first run, you also need to install `nltk.download.punkt_tab`:
 Run this once in your terminal:
  ```console
 $ python
